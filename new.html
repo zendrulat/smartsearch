@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>new</title>
+</head>
+
+<body>
+    <script data-main="config" src="require.js"></script>
+    <script>
+        require(['config'],
+            function() {
+                require(['jss/news.js']);
+            });
+    </script>
+    </head>
+
+    <body>
+        <div class="ui-widget">
+            <label for="tags">Tags: </label>
+            <input id="tags">
+        </div>
+    </body>
+
+</html>

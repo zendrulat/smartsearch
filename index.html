@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>api</title>
+    <script data-main="config" src="require.js"></script>
+</head>
+
+<body>
+    <script>
+        require(['config'], function() {
+            require(['jss/jquery-3.2.1.min.js']);
+            require(['jss/news.js']);
+            require(['https://code.jquery.com/ui/1.12.1/jquery-ui.js']);
+            require('jss/jquery-ui.js');
+        })
+    </script>
+    <button class="btns" style="width:50%; height:200px;">
+        clickhere
+    </button>
+    <br>
+    <label for="">userid</label>
+    <input type="text" name="userid" id="userid" /><br>
+    <label for="">id</label>
+    <input type="text" name="id" id="id" /><br>
+    <label for="">title</label>
+    <input type="text" name="title" id="title" autocomplete="on" /><br>
+    <label for="">body</label>
+    <input type="text" name="body" id="body" /><br>
+
+    <div id="useridsh"></div>
+    <div id="idsh"></div>
+    <div id="titlesh"></div>
+    <div id="bodysh"></div>
+    <script>
+    </script>
+
+</body>
+
+</html>
